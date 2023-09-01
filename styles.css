@@ -1,0 +1,802 @@
+@media (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        padding-top: 180px;
+        margin: 0;
+        background-color: #f7f7f7;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    nav {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        margin-top: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    header {
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #37c0c5;
+        width: 100%;
+        height: 195px;
+        padding: 10px;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    li {
+        list-style: none;
+        text-align: center;
+        display: inline-block;
+        margin: 3px auto;
+    }
+    
+    header ul {
+        text-align: center;
+        display: block;
+        padding-left: 0;
+        margin: -65px auto;
+    }
+    
+    li a:link, li a:visited, li a:active {
+        text-decoration: none;
+    }
+    
+    header a {
+        color:#f7f7f7;
+        font-size: 18px;
+        padding: 5px;
+        margin-left: 5px;
+        text-align: center;
+        border-radius: 10px;
+        border: 0;
+    }
+    
+    header a:hover {
+        color: #f7f7f7;
+        background-color: black;
+        transition: all 0.3s ease;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        background-color: #37c0c5;
+        padding: 30px;
+        display: block;
+    }
+    
+    main {
+        position: relative;
+        margin: 20px;
+        max-width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    
+    footer p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f7f7f7;
+        font-weight: bold;
+    }
+    
+    figcaption {
+        padding: 10px 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        text-align: center;
+        margin: 0 auto;
+        color: #37c0c5;
+        margin-top: 10px;
+    }
+    
+    #img-1 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: solid 2px #37c0c5;
+    }
+    
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+        color: #37c0c5;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    
+    #logo {
+        display: block;
+        width: 200px;
+        position: static;
+        margin: -50px auto;
+    }
+    
+    .bienvenida {
+        margin: -20px auto;
+    }
+    
+    main h2 {
+        text-align: center;
+        margin-top: 70px;
+        color: #37c0c5;
+    }
+    
+    #linkedin {
+        width: 70px;
+    }
+    
+    #facebook, #twitter {
+        width: 50px;
+        margin: 10px;
+    }
+    
+    #facebook:hover, #linkedin:hover, #twitter:hover {
+        padding: 4px;
+        transition: all 0.3s ease;
+    }
+    
+    .redes {
+        margin: 0 auto;
+        display: block;
+        position: static;
+        text-align: center;
+    }
+    
+    main p {
+        line-height: 1.5;
+    }
+    
+    section img {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        display: block;
+        border: 2px solid #37c0c5;
+    }
+    
+    .bell {
+        margin: 30px auto;
+        color: #f7f7f7;
+        padding-top: 20px;
+        display: block;
+        background-color: #37c0c5;
+        border-radius: 10px;
+        width: 100%;
+        border: 2px solid #37c0c5;
+    }
+    
+    main h3 {
+        text-align: left;
+    }
+    
+    #programador, #freecodecamp {
+        width: 100%;
+        display: block;
+        border: 2px solid #37c0c5;
+        margin: 30px auto;
+        border-radius: 5px;
+    }
+    
+    iframe {
+        display: block;
+        border: 2px solid #37c0c5; 
+        border-radius: 5px;
+        margin: 30px auto;
+        width: 100%;
+        height: 220px;
+    }
+    
+    #boton-freecodecamp {
+        width: 180px;
+        display: block;
+        position: relative;
+        text-align: center;
+        border-radius: 10px;
+        filter: brightness(100%);
+    }
+    
+    #boton-freecodecamp:hover {
+        filter: brightness(60%);
+    }
+    
+    #acerca-de-mi {
+        padding-top: 210px;
+        margin-top: -160px;
+    }
+    
+    
+    #temas-de-interes, #aprendamos-juntos {
+        padding-top: 210px;
+        margin-top: -190px;
+    }
+    }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        padding-top: 180px;
+        margin: 0;
+        background-color: #f7f7f7;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    nav {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        margin-top: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    header {
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #37c0c5;
+        width: 100%;
+        height: 195px;
+        padding: 10px;
+        position: fixed;
+        z-index: 100;
+    }
+    
+    li {
+        list-style: none;
+        text-align: center;
+        display: inline-block;
+        margin: 3px auto;
+    }
+    
+    header ul {
+        text-align: center;
+        display: block;
+        padding-left: 0;
+        margin: -65px auto;
+    }
+    
+    li a:link, li a:visited, li a:active {
+        text-decoration: none;
+    }
+    
+    header a {
+        color:#f7f7f7;
+        font-size: 18px;
+        padding: 5px;
+        margin-left: 5px;
+        text-align: center;
+        border-radius: 10px;
+        border: 0;
+    }
+    
+    header a:hover {
+        color: #f7f7f7;
+        background-color: black;
+        transition: all 0.3s ease;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        background-color: #37c0c5;
+        padding: 30px;
+        display: block;
+    }
+    
+    main {
+        position: relative;
+        margin: 20px;
+        max-width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+    
+    footer p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #f7f7f7;
+        font-weight: bold;
+    }
+    
+    figcaption {
+        padding: 10px 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        text-align: center;
+        margin: 0 auto;
+        color: #37c0c5;
+        margin-top: 10px;
+    }
+    
+    #img-1 {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: solid 2px #37c0c5;
+    }
+    
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+        color: #37c0c5;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    
+    #logo {
+        display: block;
+        width: 200px;
+        position: static;
+        margin: -50px auto;
+    }
+    
+    .bienvenida {
+        margin: -20px auto;
+    }
+    
+    main h2 {
+        text-align: center;
+        margin-top: 70px;
+        color: #37c0c5;
+    }
+    
+    #linkedin {
+        width: 70px;
+    }
+    
+    #facebook, #twitter {
+        width: 50px;
+        margin: 10px;
+    }
+    
+    #facebook:hover, #linkedin:hover, #twitter:hover {
+        padding: 4px;
+        transition: all 0.3s ease;
+    }
+    
+    .redes {
+        margin: 0 auto;
+        display: block;
+        position: static;
+        text-align: center;
+    }
+    
+    main p {
+        line-height: 1.5;
+    }
+    
+    section img {
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+        display: block;
+        border: 2px solid #37c0c5;
+    }
+    
+    .bell {
+        margin: 30px auto;
+        color: #f7f7f7;
+        padding-top: 20px;
+        display: block;
+        background-color: #37c0c5;
+        border-radius: 10px;
+        width: 60%;
+        border: 2px solid #37c0c5;
+    }
+    
+    main h3 {
+        text-align: left;
+    }
+    
+    #programador, #freecodecamp {
+        width: 60%;
+        display: block;
+        border: 2px solid #37c0c5;
+        margin: 30px auto;
+        border-radius: 5px;
+    }
+    
+    iframe {
+        display: block;
+        border: 2px solid #37c0c5; 
+        border-radius: 5px;
+        margin: 30px auto;
+        width: 60%;
+        height: 250px;
+    }
+    
+    #boton-freecodecamp {
+        width: 180px;
+        display: block;
+        position: relative;
+        text-align: center;
+        border-radius: 10px;
+        filter: brightness(100%);
+        margin: 30px auto 0;
+    }
+
+    
+    #boton-freecodecamp:hover {
+        filter: brightness(60%);
+    }
+    
+    #acerca-de-mi {
+        padding-top: 210px;
+        margin-top: -160px;
+    }
+    
+    
+    #temas-de-interes, #aprendamos-juntos {
+        padding-top: 210px;
+        margin-top: -190px;
+    }
+    }
+
+
+@media (min-width: 1280px) {
+    section[id="reloj"] {
+        margin-bottom: -20px;
+    }
+
+    #reloj{
+        text-align:center;
+        color:#37c0c5;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 15px auto -10px;
+    }
+    
+    #reloj_input{
+        margin-bottom: 10px;
+        font-size: 24px;
+        text-align:center;
+        border: none;
+        color:#37c0c5 !important;
+        font-family:system-ui;
+        font-weight:bold;
+        width: 150px;
+        height: 50px;
+        background-color: #f0f0f0;
+        margin-top: -70px;
+        margin-bottom: 20px;
+    }
+    
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 150px;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #37c0c5;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+header ul {
+    text-align: right;
+    padding-right: 40px;
+}
+
+li a:link, li a:visited, li a:active {
+    text-decoration: none;
+}
+
+header a {
+    color:#f7f7f7;
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+}
+
+header a:hover {
+    color: #f7f7f7;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+aside {
+    display: block;
+    position: absolute;
+    top: 145px;
+    bottom: 0px;
+    z-index: 2;
+    width: 250px;
+    right: 30px;
+    height: 3750px;
+    background-color: #f0f0f0;
+    bottom: 0;
+    border-radius: 10px;
+    border: solid 2px #37c0c5;
+}
+
+aside h2 {
+    text-align: center;
+    color: #37c0c5;
+}
+
+aside p {
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+aside figcaption {
+    padding: 10px 30px;
+    line-height: 1.2;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: #37c0c5;
+    padding: 30px;
+    display: block;
+}
+
+main {
+    position: relative;
+    margin: 20px;
+    max-width: 65%;
+    height: auto;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+#foto-personal {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border: 2px solid #37c0c5;
+    border-radius: 50%;
+}
+
+figcaption {
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    color: #37c0c5;
+    margin-top: 10px;
+}
+
+aside ul {
+    padding: 10px 0;
+    margin: 5px 40px;
+}
+
+aside li {
+    font-size: 16px;
+    list-style: none;
+    margin-left: 0;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+figcaption li {
+    margin: 0 auto;
+}
+
+aside a:hover {
+    color: #37c0c5;
+}
+
+aside a {
+    color: black;
+    margin: 0 auto;
+}
+
+#img-1 {
+    display: block;
+    width: 400px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 2px #37c0c5;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #37c0c5;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.bienvenida {
+    border: 2px solid #37c0c5;
+    border-radius: 10px;
+    padding: 70px;
+    background-color: #f0f0f0;
+    margin: -20px auto;
+}
+
+main h2 {
+    margin-top: 70px;
+    color: #37c0c5;
+}
+
+#linkedin {
+    width: 70px;
+}
+
+#facebook, #twitter {
+    width: 50px;
+    margin: 10px;
+}
+
+#facebook:hover, #linkedin:hover, #twitter:hover {
+    padding: 4px;
+    transition: all 0.3s ease;
+}
+
+.redes {
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+}
+
+main p {
+    line-height: 1.5;
+}
+
+section img {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    display: block;
+    border: 2px solid #37c0c5;
+}
+
+.bell {
+    margin: 30px auto;
+    color: #f7f7f7;
+    padding-top: 20px;
+    display: block;
+    background-color: #37c0c5;
+    border-radius: 10px;
+    width: 520px;
+    border: 2px solid #37c0c5;
+}
+
+main h3 {
+    text-align: left;
+}
+
+#programador, #freecodecamp {
+    width: 520px;
+    display: block;
+    border: 0;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+iframe {
+    display: block;
+    border: 2px solid #37c0c5; 
+    border-radius: 5px;
+    margin: 30px auto;
+    width: 520px;
+    height: 320px;
+}
+
+#boton-freecodecamp {
+    display: block;
+    width: 180px;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(100%);
+    margin-bottom: -20px;
+}
+
+#boton-freecodecamp:hover {
+    filter: brightness(60%);
+}
+
+#acerca-de-mi {
+    padding-top: 140px;
+    margin-top: -70px;
+}
+
+
+#temas-de-interes, #aprendamos-juntos {
+    padding-top: 130px;
+    margin-top: -120px;
+}
+
+}

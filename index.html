@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>El Blog del Colo - Tecnología y Programación</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="imagenes/ico.ico">
+    <script src="reloj.js"></script>
+</head>
+
+<body onload="avanzaReloj()">
+    <header>
+        <img src="imagenes/logo personal.png" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mi</a></li>
+                <li><a href="#temas-de-interes">Temas de interés</a></li>
+                <li><a href="#aprendamos-juntos">Aprendamos juntos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <section id="reloj">
+            Hora Actual
+            <form name="form_reloj" id="reloj">
+                <input id="reloj_input" type="text" name="reloj" onfocus="window.document.form_reloj.reloj.blur()">
+            </form>
+        </section>
+        <img src="imagenes/foto personal.jpg" onmouseover="this.src='imagenes/foto de perfil.jpg'"
+            onmouseout="this.src='imagenes/foto personal.jpg'" id="foto-personal" alt="Nicolás Lacave">
+        <figcaption>
+            <section id="reloj">
+            </section>
+            <li>Nicolás Lacave </li>
+            <li>Especialista de Comunicaciones</li>
+            <li>Ciudad Autónoma de Buenos Aires, Argentina 2023</li>
+        </figcaption>
+        <h3>Artículos de interés</h3>
+        <ul>
+            <li><a href="https://www.freecodecamp.org/" target="_blank">Aprende Programación desde cero GRATIS en
+                    FreeCodeCamp</a></li>
+            <li><a href="https://orientacionesvocacion.com/que-estudiar-si-me-gusta-la-tecnologia/"
+                    target="_blank">Descubre que carrera
+                    estudiar si te gusta la tecnología</a></li>
+            <li><a href="https://www.hackaboss.com/blog/chat-gpt-y-el-desarrollo-web-acabara-la-ia-con-los-programadores"
+                    target="_blank">Cómo
+                    afecta el uso de Inteligencia Artificial a los programadores</a></li>
+            <li><a href="https://chat.openai.com/auth/login?__cf_chl_tk=BES1VAykyegB_L2esqaBeDtc.er4gtLZnAJ7fODBBJw-1681912086-0-gaNycGzNGRA"
+                    target="_blank">Incorpora IA en tu código con Chat GPT GRATIS</a></li>
+        </ul>
+    </aside>
+    <main>
+        <div class="bienvenida">
+            <h1>Bienvenido a mi blog personal!</h1>
+            <img src="imagenes/foto bienvenida.jpg" onmouseover="this.src='imagenes/foto bienvenida 2.jpg'"
+                onmouseout="this.src='imagenes/foto bienvenida.jpg'" alt="Web Developing" id="img-1">
+        </div>
+        <section>
+            <h2 id="acerca-de-mi">Acerca de mi</h2>
+            <p>Mi nombre es <b>Nicolás Lacave</b>, aunque desde chico me dicen Colo, debido a que nací con un mechón de
+                pelo
+                colorado.
+                Nací el 5 de Julio de 2001. Tengo 21 años y actualmente trabajo en una empresa de origen chileno
+                llamada Belltech, en la que me desempeño como Especialista en Comunicaciones Unificadas dando soporte a
+                la aplicación de servicios de grabación "NICE".</p>
+            <p>Mi familia está compuesta por mis papás, mi hermano y mi perrita llamada Belu.
+                Me encanta escuchar música, pasar tiempo con amigos y aprender programación.
+                Mi meta laboral a mediano y corto plazo: Trabajar para el exterior como Desarrollador Web desde
+                Argentina y
+                cobrar en dolares.</p>
+            <div class="bell">
+                <img src="imagenes/foto belltech.jpg" alt="team belltech" id="belltech">
+                <figcaption>Equipo Belltech Argentina en la fiesta de Fin de año 2022</figcaption>
+            </div>
+        </section>
+        <section>
+            <h2 id="temas-de-interes">Temas de interés</h2>
+            <p>Como te habrás dado cuenta, mi rubro es el tecnológico. Personalmente, es un área que me encanta.
+                Sin embargo, hay que recalcar que los trabajos de tecnología, y más especificamente, el de programador,
+                tienen ciertas ventajas, además de poder realizar los programas que siempre soñaste.</p>
+            <p>En esta sección te presento 3 temas de interés que probablemente te atraigan o que al menos te vendrá
+                bien conocer si estás pensando entrar a este rubro.</p>
+            <img src="imagenes/programador.jpg" alt="programador de vacaciones" id="programador">
+            <h3>Alta demanda laboral</h3>
+            <p> La programación es una habilidad que se ha vuelto cada vez más relevante a medida que la tecnología ha
+                avanzado y se ha vuelto omnipresente en nuestra sociedad. En la actualidad, la mayoría de las empresas y
+                organizaciones dependen de software y aplicaciones para realizar sus actividades diarias, lo que ha
+                aumentado la demanda de programadores que puedan diseñar y desarrollar estos sistemas. </p>
+            <p>Además, el avance de la tecnología ha creado nuevas oportunidades en áreas como la inteligencia
+                artificial, la ciberseguridad, la realidad virtual, la robótica, entre otras. Como resultado, los
+                programadores pueden especializarse en una variedad de áreas y trabajar en diferentes industrias.</p>
+            <h3>Salario competitivo</h3>
+            <p>Los programadores tienen habilidades altamente valoradas en el mercado laboral, y esto se refleja en el
+                salario. Según los datos de Glassdoor, un programador en Estados Unidos puede ganar en promedio unos
+                76.000 dólares al año, aunque esto puede variar dependiendo de la experiencia y la especialización del
+                programador. Además, algunos empleadores ofrecen beneficios adicionales como seguro médico, vacaciones
+                pagadas y planes de jubilación.</p>
+            <h3>Flexibilidad y libertad</h3>
+            <p>El trabajo de programador puede ser muy flexible, lo que permite a los profesionales trabajar en
+                diferentes lugares y horarios. Muchos programadores pueden trabajar de manera remota, lo que les brinda
+                una mayor libertad en cuanto a su ubicación geográfica y horario de trabajo.</p>
+            <p>Algunos aprovechan esto
+                último
+                para tomarse vacaciones mientras realizan su trabajo desde la playa, el bosque o la habitación de su
+                hotel. Además,
+                algunos
+                programadores trabajan como freelancers y pueden elegir sus proyectos y clientes, lo que les permite
+                tener un mayor control sobre su carrera y estilo de vida.</p>
+            <p>Otra ventaja de la flexibilidad en el trabajo de programador es la posibilidad de equilibrar el trabajo
+                con la vida personal. Al trabajar en línea, los programadores pueden tener más tiempo para sus
+                pasatiempos, familia y amigos, lo que puede mejorar su calidad de vida y reducir el estrés.</p>
+            <p><b>Te dejaré un video muy interesante por acá. En especial si te gusta la idea de trabajar mientras
+                    viajas
+                    por el mundo.</b></p>
+            <iframe src="https://www.youtube.com/embed/hb_OxQz897A" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen loading="lazy"></iframe>
+        </section>
+        <section>
+            <h2 id="aprendamos-juntos">Aprendamos juntos</h2>
+            <p>Si estás interesado en aprender a programar, te quiero recomendar una herramienta que me ha sido muy
+                útil: FreeCodeCamp. Si bien hay muchas opciones de pago en el mercado, esta plataforma te ofrece cursos
+                gratuitos que te ayudarán a desarrollar tus habilidades en programación y tecnología.</p>
+            <img src="imagenes/freecodecamp.jpg" alt="freecodecamp logo" id="freecodecamp">
+            <p> Una de las ventajas de freecodecamp es que podés aprender a tu propio ritmo y sin necesidad de tener
+                experiencia previa en programación. Los cursos están diseñados para ser interactivos, por lo que podrás
+                poner en práctica lo que estás aprendiendo mientras avanzás en los cursos.</p>
+
+            <p>En freecodecamp encontrarás una gran variedad de cursos, desde los fundamentos de la programación hasta
+                el desarrollo web, la ciencia de datos y la inteligencia artificial. También hay cursos sobre
+                tecnologías específicas, como React, Node.js y MongoDB.</p>
+
+            <p>Lo mejor de todo es que es completamente gratis. Sí! No vas a tener que gastar nada para
+                acceder a la plataforma y a todos los recursos que ofrece.</p>
+            <p> Si estás buscando una forma accesible y efectiva de aprender a programar, te invito a que pruebes
+                FreeCodeCamp. Yo mismo lo utilizo y me ha sido de gran ayuda para aprender programación.
+                <b><a href="https://www.freecodecamp.org/" target="_blank">¡Aprovecha esta oportunidad de desarrollar
+                        tus habilidades
+                        sin tener que gastar un centavo!</a></b>
+            </p>
+            <a href="https://www.freecodecamp.org/" target="_blank" id="free"><img src="imagenes/boton freecodecamp.png"
+                    id="boton-freecodecamp"></a>
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+            <a href="https://www.facebook.com/nicolas.lacave/" target="_blank"><img src="imagenes/logo facebook.png"
+                    alt="Logo de Facebook" id="facebook"></a>
+            <a href="https://twitter.com/LacaveNicolas" target="_blank"><img src="imagenes/logo twitter.png"
+                    alt="Logo de Twitter" id="twitter"></a>
+            <a href="https://www.linkedin.com/in/nicol%C3%A1s-lacave-91a8bb223/" target="_blank"><img
+                    src="imagenes/logo linkedin.png" alt="Logo de LinkedIn" id="linkedin"></a>
+        </div>
+        <p>&copy; 2023 El blog del Colo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
